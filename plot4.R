@@ -19,6 +19,6 @@ legend("topright",bty="n",lwd=2,cex = 0.75,col=c("black","red","blue"),c("Sub_me
 
 plot(powerconsubset$datetime, powerconsubset$Global_reactive_power, xlab = "datetime",ylab = "Global_reactive_power", type = "l", main = "")
 
-dev.copy(png,"plot3.png")
+dev.copy(png,"plot4.png")
 dev.off()
 
